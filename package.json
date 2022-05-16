@@ -1,0 +1,18 @@
+{
+  "name": "7.06",
+  "version": "1.0.0",
+  "description": "cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run -b chrome --headed",
+    "headedTestChrome": "npx cypress run -b chrome --headed -C cypress.env.json",
+    "headlessTestChrome": "npx cypress run -b chrome",
+    "headedTestEdge": "npx cypress run -b edge --headed -C cypress.json",
+    "headlessTestEdge": "npx cypress run -b edge"
+  },
+  "author": "Erika Michel",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.6.1"
+  }
+}
