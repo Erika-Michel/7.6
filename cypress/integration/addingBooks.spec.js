@@ -13,7 +13,7 @@ it("Should add book", () => {
   cy.contains("Leo Tolstoy").should("be.visible");
 });
 
-it("Should add favourite book", () => {
+it("Should add favourite book to books", () => {
   cy.addBook(
     "The Brothers Karamazov",
     "a passionate philosophical novel that enters deeply into questions of God, free will, and morality",
